@@ -12,6 +12,7 @@ body {
     background-color: #fafafa;
     height: 5em;
     width: 98.7vw;
+    position: fixed;
 }
 
 .header__nav {
@@ -186,7 +187,9 @@ body {
 }
 
 .footer__container p {
-    font-weight: 400;
+    font-weight: 200;
+    text-transform: uppercase;
+
 }
 
 .footer__imgLogo {
@@ -200,8 +203,8 @@ body {
 .footer__info li a {
     color: #161214;
     text-decoration: none;
-    text-transform: capitalize;
-    font-weight: 400;
+    text-transform: uppercase;
+    font-weight: 200;
 }
 
 .footer__info li a:hover {
@@ -211,8 +214,8 @@ body {
 .footer__menu li a {
     color: #161214;
     text-decoration: none;
-    text-transform: capitalize;
-    font-weight: 400;
+    text-transform: uppercase;
+    font-weight: 200;
 }
 
 .footer__menu li a:hover {
@@ -222,8 +225,8 @@ body {
 .footer__socials li a {
     color: #161214;
     text-decoration: none;
-    text-transform: capitalize;
-    font-weight: 400;
+    text-transform: uppercase;
+    font-weight: 200;
 }
 
 .footer__socials li a:hover {
@@ -231,7 +234,7 @@ body {
 }
 
 .footer__name a {
-    color: #7209b7;
+    color: #6a14d1;
     text-decoration: none;
     text-transform: capitalize;
 }
@@ -266,4 +269,8 @@ body {
 
 .footer__socials {
     list-style: none;
+}
+
+.footer__copy {
+    text-align: center;
 }
