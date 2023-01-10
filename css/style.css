@@ -1,12 +1,17 @@
+/* ---------------------------------------reseteo universal */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* ---------------------------------------reseteo universal */
+
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+/* ---------------------------------------inicio header */
 
 .header {
     background-color: #fafafa;
@@ -85,7 +90,10 @@ body {
     color: #121212;
 }
 
+/* ---------------------------------------fin header */
 
+
+/* ---------------------------------------inicio sections */
 .section__info {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../resources/tshirt-bg.jpg");
     background-repeat: no-repeat;
@@ -163,6 +171,97 @@ body {
     text-decoration: none;
 }
 
+
+.section__aboutus {
+    margin: 50px 0px;
+}
+
+.section__aboutus h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.section__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__aboutus p {
+    text-align: center;
+    width: 50%;
+}
+
+.section__article img {
+    height: 20em;
+}
+
+.section__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.section__formContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__formContact h1 {
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+.section__form {
+    width: 350px;
+}
+
+.section__form input,
+textarea {
+    margin: 10px 0px;
+    width: 100%;
+    border: #6a14d1 1px solid;
+    padding: 10px;
+    font-size: 1em;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+
+}
+
+.section__form textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+#btn {
+    background-image: linear-gradient(45deg, rgba(255, 0, 200, 0.6), rgba(140, 0, 255, 0.6));
+    background-color: #6a14d1;
+    color: #fafafa;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+#btn:hover {
+    cursor: pointer;
+    font-weight: 400;
+}
+
+/* ---------------------------------------fin sections */
+
+/* ---------------------------------------inicio section contact */
 .section__contact {
     background-image: url("../resources/darkness.webp");
     background-repeat: repeat;
@@ -201,6 +300,9 @@ body {
     border: 1px #e7e7e7 solid;
 }
 
+/* ---------------------------------------fin section contact */
+
+/* ---------------------------------------inicio footer */
 .footer {
     height: 200px;
     background-color: #fafafa;
@@ -299,90 +401,4 @@ body {
     text-align: center;
 }
 
-.section__aboutus {
-    margin: 50px 0px;
-}
-
-.section__aboutus h1 {
-    font-size: 2em;
-    text-transform: uppercase;
-    margin-bottom: 50px;
-}
-
-.section__article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.section__aboutus p {
-    text-align: center;
-    width: 50%;
-}
-
-.section__article img {
-    height: 20em;
-}
-
-.section__form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.section__formContact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.section__formContact h1 {
-    text-transform: uppercase;
-    margin: 20px 0px;
-}
-
-.section__form {
-    width: 350px;
-}
-
-.section__form input,
-textarea {
-    margin: 10px 0px;
-    width: 100%;
-    border: #6a14d1 1px solid;
-    padding: 10px;
-    font-size: 1em;
-    letter-spacing: 3px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 100;
-
-}
-
-.section__form textarea {
-    min-height: 100px;
-    max-height: 200px;
-    max-width: 100%;
-    min-width: 100%;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 100;
-}
-
-
-#btn {
-    background-image: linear-gradient(45deg, rgba(255, 0, 200, 0.6), rgba(140, 0, 255, 0.6));
-    background-color: #6a14d1;
-    color: #fafafa;
-    font-size: 15px;
-    text-transform: uppercase;
-    padding: 10px;
-    margin-top: 10px;
-    letter-spacing: 2px;
-}
-
-#btn:hover {
-    cursor: pointer;
-    font-weight: 400;
-}
+/* ---------------------------------------fin footer */
