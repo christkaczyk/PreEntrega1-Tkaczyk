@@ -12,7 +12,6 @@ body {
     background-color: #fafafa;
     height: 5em;
     width: 98.7vw;
-    position: fixed;
 }
 
 .header__nav {
@@ -20,6 +19,12 @@ body {
     width: 98.7vw;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -37,7 +42,7 @@ body {
     margin: 0px 10px;
 }
 
-.header__nav ul li a {
+.header__a {
     text-decoration: none;
     color: #121212;
     text-transform: uppercase;
@@ -45,11 +50,11 @@ body {
     letter-spacing: 3px;
 }
 
-.header__nav ul li a:hover {
+.header__a:hover {
     color: #6a14d1;
 }
 
-.header__nav a {
+.header__a {
     text-decoration: none;
     color: #121212;
     text-transform: uppercase;
@@ -62,12 +67,30 @@ body {
     color: #6a14d1;
 }
 
+.header__loguinLink {
+    text-decoration: none;
+    color: #121212;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    border: #121212 1px solid;
+    padding: 5px;
+}
+
+.header__darkmode {
+    margin-right: 10px;
+    font-size: 1em;
+    color: #121212;
+}
+
+
 .section__info {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../resources/tshirt-bg.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
     width: 98.7vw;
     display: flex;
     justify-content: center;
@@ -98,7 +121,7 @@ body {
 }
 
 .section__catalogue:hover {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../resources/catalogo-img.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../resources/catalogo-img.jpg");
 }
 
 .section__catalogue h2 {
@@ -125,7 +148,7 @@ body {
 }
 
 .section__works:hover {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../resources/muestras-img.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url("../resources/muestras-img.jpg");
 }
 
 .section__works h2 {
@@ -179,7 +202,7 @@ body {
 
 .footer {
     height: 200px;
-    background-color: #e7e7e7;
+    background-color: #fafafa;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -273,4 +296,90 @@ body {
 
 .footer__copy {
     text-align: center;
+}
+
+.section__aboutus {
+    margin: 50px 0px;
+}
+
+.section__aboutus h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.section__article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__aboutus p {
+    text-align: center;
+    width: 50%;
+}
+
+.section__article img {
+    height: 20em;
+}
+
+.section__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.section__formContact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__formContact h1 {
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+.section__form {
+    width: 350px;
+}
+
+.section__form input,
+textarea {
+    margin: 10px 0px;
+    width: 100%;
+    border: #6a14d1 1px solid;
+    padding: 10px;
+    font-size: 1em;
+    letter-spacing: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+
+}
+
+.section__form textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+
+#btn {
+    background-color: #6a14d1;
+    color: #fafafa;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+
+#btn:hover {
+    cursor: pointer;
 }
