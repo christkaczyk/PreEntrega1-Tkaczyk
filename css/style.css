@@ -131,6 +131,7 @@ body {
 
 .section__catalogue:hover {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../resources/catalogo-img.jpg");
+    cursor: pointer;
 }
 
 .section__catalogue h2 {
@@ -158,6 +159,7 @@ body {
 
 .section__works:hover {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url("../resources/muestras-img.jpg");
+    cursor: pointer;
 }
 
 .section__works h2 {
@@ -298,6 +300,7 @@ textarea {
     padding: 10px;
     margin-top: 10px;
     border: 1px #e7e7e7 solid;
+    cursor: pointer;
 }
 
 /* ---------------------------------------fin section contact */
