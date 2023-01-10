@@ -54,14 +54,14 @@ body {
     color: #6a14d1;
 }
 
-.header__a {
+/* .header__a {
     text-decoration: none;
     color: #121212;
     text-transform: uppercase;
     margin-right: 10px;
     font-weight: 200;
     letter-spacing: 3px;
-}
+} */
 
 .header__nav a:hover {
     color: #6a14d1;
