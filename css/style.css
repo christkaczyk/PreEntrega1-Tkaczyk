@@ -305,6 +305,25 @@ textarea {
 
 /* ---------------------------------------fin section contact */
 
+/* ---------------------------------------inicio section gallery */
+.section__catalogueGallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    min-height: 100vh;
+    width: 60vw;
+    margin: 30px auto;
+}
+
+.section__img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* ------------------------------------------fin section gallery */
+
 /* ---------------------------------------inicio footer */
 .footer {
     height: 200px;
@@ -405,3 +424,19 @@ textarea {
 }
 
 /* ---------------------------------------fin footer */
+
+
+
+
+
+.galeria {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria img {
+    height: 300px;
+}
